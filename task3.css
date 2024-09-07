@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background :rgb(82, 38, 82);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+body{
+    background-color: rgb(182, 182, 209);
+}
+.navlinks{
+    flex: 1;
+    text-align: right;
+  }
+  ul li {
+    list-style: none;
+    margin-left: 7px;
+    position: relative;
+    padding: 8px 12px;
+    display: inline-block; 
+  }
+  ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding :8px 15px;
+    border-radius: 5px;
+}
+ul li ::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #b8b3d8;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+ul li :hover::after{
+    width: 100%;
+}
+
+.text{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    transition: translate(-50%,-50%);
+    text-align: center;
+}
+.text h1{
+    font-size: 40px;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 999px;
+}
+.btn:hover{
+    border: 1px solid #b8b3d8 ;
+    background: #b8b3d8;
+    transition: 0.5s;
+}
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top:100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p2{
+    color: gray;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.about{
+    text-align: center;
+    margin-top: 5%;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.course-col:hover{
+    box-shadow: rgba(31, 28, 28, 0.826);
+    transform: translateY(-30px);
+}
+
+* {box-sizing:border-box}
+.skillh1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.head{
+    text-align: center;
+}
+.containerskill {
+  width: 50%; 
+  background-color: #ddd; 
+  margin-left: 300px;
+}
+
+.skills {
+  text-align: left; 
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  color: black ; 
+}
+
+.html {width: 90%; background-color: rgb(189, 104, 189);} 
+.css {width: 85%; background-color: #bae5f4;} 
+.js {width: 70%; background-color:#fccdcd ;} 
+
+.otherh1{
+ text-align: center;
+ margin-top: 20px;
+ margin-bottom: 10px;
+}
+.otherskills {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    text-align: center;
+  }
+ .otherskills ul li {
+    border: 1px solid #ddd; 
+    margin-top: -1px; 
+    background-color: #f6f6f6; 
+    padding: 12px; 
+    text-align: center;
+    transition: 0.5s;
+  }
+  .otherskills ul li:hover{
+    transform: translateY(-20px);
+    background-color: rgb(196, 155, 196);
+  }
+
+.contacth1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+input[type=text], textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  input[type=email] {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+
+  input[type=submit] {
+    background-color: rgb(194, 117, 194);;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: grid;
+    justify-content: center;
+  }
+ 
+  input[type=submit]:hover {
+    background-color: rgb(196, 155, 196);
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+  }
+.h1about{
+    margin-left: 40px;
+}
+.paboutme{
+    margin-left: 40px;
+}
